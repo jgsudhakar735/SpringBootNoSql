@@ -1,0 +1,9 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /springbootnosql
+spring:
+  data:
+    mongodb:
+      database: nosql
+      host: localhost:27017
