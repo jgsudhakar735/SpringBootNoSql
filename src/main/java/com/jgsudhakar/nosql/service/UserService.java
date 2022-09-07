@@ -8,11 +8,11 @@ import java.util.List;
 /*************************************
  * This Class is used to
  * Author  : Sudhakar Tangellapalli
- * File    : com.jgsudhakar.nosql.service.UserService
+ * File    : com.jgsudhakar.nosql.service.impl.UserService
  * Date    : 05 September 2022
  * Version : 1.0
  **************************************/
-public interface UserService {
+public  interface UserService {
     public List<UserResDto> findAll();
 
     public UserResDto fetchUserByName(String userName);
